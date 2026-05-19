@@ -8,27 +8,34 @@ set -euo pipefail
 echo "🚀 Starting R-Desk Client Unified Installation..."
 echo "--------------------------------------------------------"
 
-# 1. Determine Architecture
+# 1. Determine Architecture & Download URLs
 ARCH=$(uname -m)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DEB_FILE=""
+DEB_NAME=""
+DOWNLOAD_URL=""
 
 if [[ "$ARCH" == "x86_64" ]]; then
     echo "💻 Detected Architecture: x86_64 (AMD64)"
-    DEB_FILE="$SCRIPT_DIR/r_desk_1.0.0_compatible_amd64.deb"
+    DEB_NAME="r_desk_1.0.0_compatible_amd64.deb"
+    DOWNLOAD_URL="https://github.com/TeamRobotoAI/rdesk_public/releases/download/v1.0.0/r_desk_1.0.0_compatible_amd64.deb"
 elif [[ "$ARCH" == "aarch64" || "$ARCH" == "arm64" ]]; then
     echo "📱 Detected Architecture: ARM64"
-    DEB_FILE="$SCRIPT_DIR/r_desk_1.0.0_arm64.deb"
+    DEB_NAME="r_desk_1.0.0_arm64.deb"
+    DOWNLOAD_URL="https://github.com/TeamRobotoAI/rdesk_public/releases/download/v1.0.0/r_desk_1.0.0_arm64.deb"
 else
     echo "❌ Unsupported architecture: $ARCH"
     exit 1
 fi
 
-# 2. Check if the .deb file exists
+DEB_FILE="$SCRIPT_DIR/$DEB_NAME"
+
+# 2. Check if the .deb file exists, download if missing
 if [[ ! -f "$DEB_FILE" ]]; then
-    echo "❌ Error: Could not find package at $DEB_FILE"
-    echo "Please ensure you have extracted the full release folder."
-    exit 1
+    echo "🌐 Local package not found. Downloading $DEB_NAME..."
+    if ! curl -L "$DOWNLOAD_URL" -o "$DEB_FILE"; then
+        echo "❌ Error: Failed to download package from $DOWNLOAD_URL"
+        exit 1
+    fi
 fi
 
 # 3. Install the .deb package

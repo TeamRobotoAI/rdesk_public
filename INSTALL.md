@@ -9,8 +9,8 @@ This guide provides step-by-step instructions for installing and configuring the
 R-Desk is distributed as a fully self-contained installer for both standard 64-bit (x64) PCs and Windows on ARM (ARM64) devices.
 
 ### 1. Select the Correct Installer
-* **Standard PC (Intel/AMD x64):** Download `r_desk_1.0.0_x64_setup.exe` from the `windows/` directory.
-* **ARM Laptops (Snapdragon X Elite, Surface Pro 9/11):** Download `r_desk_1.0.0_arm64_setup.exe` from the `windows/` directory.
+* **Standard PC (Intel/AMD x64):** Download `r_desk_1.0.0_x64_setup.exe` from the `windows/stable/version/1.0.0/` directory.
+* **ARM Laptops (Snapdragon X Elite, Surface Pro 9/11):** Download `r_desk_1.0.0_arm64_setup.exe` from the `windows/stable/version/1.0.0/` directory.
 
 ### 2. Run the Setup Wizard
 1. Double-click the downloaded `.exe` file.
@@ -31,7 +31,7 @@ R-Desk provides native Debian (`.deb`) packages for x86_64 (AMD64) workstations 
 
 Our `install.sh` script automatically detects your architecture, installs the right `.deb` package via `apt` (which resolves dependencies), and configures all necessary remote control permissions in one step.
 
-1. Open your terminal and navigate to the `linux/` directory inside the repository.
+1. Open your terminal and navigate to the `linux/stable/version/1.0.0/` directory inside the repository.
 2. Make the scripts executable:
    ```bash
    chmod +x install.sh setup.sh

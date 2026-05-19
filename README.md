@@ -32,16 +32,16 @@ Choose the appropriate installer or package for your operating system and CPU ar
 
 | Architecture | File Name | Description | Download Link |
 |:---|:---|:---|:---|
-| **Windows (x64)** | `r_desk_1.0.0_x64_setup.exe` | Standard 64-bit installer for Windows 10 & 11 PCs. | [Download x64](./windows/r_desk_1.0.0_x64_setup.exe) |
-| **Windows (ARM64)**| `r_desk_1.0.0_arm64_setup.exe` | Optimized native installer for Windows on ARM (Snapdragon X Elite, Surface Pro 9/11). | [Download ARM64](./windows/r_desk_1.0.0_arm64_setup.exe) |
+| **Windows (x64)** | `r_desk_1.0.0_x64_setup.exe` | Standard 64-bit installer for Windows 10 & 11 PCs. | [Download x64](./windows/stable/version/1.0.0/r_desk_1.0.0_x64_setup.exe) |
+| **Windows (ARM64)**| `r_desk_1.0.0_arm64_setup.exe` | Optimized native installer for Windows on ARM (Snapdragon X Elite, Surface Pro 9/11). | [Download ARM64](./windows/stable/version/1.0.0/r_desk_1.0.0_arm64_setup.exe) |
 
 ### 🐧 Linux Downloads
 
 | Architecture | File Name | Description | Download Link |
 |:---|:---|:---|:---|
-| **Linux (All)** | `install.sh` | One-click unified installer for all Linux architectures. | [View Installer](./linux/install.sh) |
-| **Linux (AMD64)** | `r_desk_1.0.0_compatible_amd64.deb` | Broadly compatible Debian/Ubuntu package for standard x86_64 Linux PCs. | [Download AMD64](./linux/r_desk_1.0.0_compatible_amd64.deb) |
-| **Linux (ARM64)** | `r_desk_1.0.0_arm64.deb` | Native Debian package for ARM64 SBCs (Raspberry Pi 4/5, NVIDIA Jetson, etc.). | [Download ARM64](./linux/r_desk_1.0.0_arm64.deb) |
+| **Linux (All)** | `install.sh` | One-click unified installer for all Linux architectures. | [View Installer](./linux/stable/version/1.0.0/install.sh) |
+| **Linux (AMD64)** | `r_desk_1.0.0_compatible_amd64.deb` | Broadly compatible Debian/Ubuntu package for standard x86_64 Linux PCs. | [Download AMD64](./linux/stable/version/1.0.0/r_desk_1.0.0_compatible_amd64.deb) |
+| **Linux (ARM64)** | `r_desk_1.0.0_arm64.deb` | Native Debian package for ARM64 SBCs (Raspberry Pi 4/5, NVIDIA Jetson, etc.). | [Download ARM64](./linux/stable/version/1.0.0/r_desk_1.0.0_arm64.deb) |
 
 > [!NOTE]
 > Looking for older versions or change history? Check our [Releases page](../../releases) on GitHub.
@@ -69,7 +69,7 @@ Choose the appropriate installer or package for your operating system and CPU ar
 ### Linux Installation
 We provide a unified, one-click installation script that automatically detects your architecture, installs the correct package, and configures remote control permissions (`uinput`).
 
-1. Open your terminal in the downloaded `linux/` folder.
+1. Open your terminal in the downloaded `linux/stable/version/1.0.0/` folder.
 2. Make the script executable and run it:
    ```bash
    chmod +x install.sh setup.sh
@@ -91,12 +91,12 @@ rdesk_public/
 ├── TROUBLESHOOTING.md      # FAQ, common errors, and solutions
 ├── SECURITY.md             # Security practices and E2EE architecture
 ├── LICENSE                 # End-User License Agreement
-├── linux/                  # Linux distribution packages
-│   ├── install.sh          # One-click unified installer for Linux
+├── linux/stable/version/1.0.0/ # Linux distribution packages
+│   ├── install.sh              # One-click unified installer for Linux
 │   ├── r_desk_1.0.0_compatible_amd64.deb
 │   ├── r_desk_1.0.0_arm64.deb
-│   └── setup.sh            # Linux uinput permission helper script
-└── windows/                # Windows distribution installers
+│   └── setup.sh                # Linux uinput permission helper script
+└── windows/stable/version/1.0.0/ # Windows distribution installers
     ├── r_desk_1.0.0_x64_setup.exe
     └── r_desk_1.0.0_arm64_setup.exe
 ```

@@ -1,21 +1,44 @@
-MIT License
+# END-USER LICENSE AGREEMENT (EULA) & FREEWARE TERMS
 
-Copyright (c) 2026 RobotoAI
+**R-Desk Remote Desktop Client**  
+**Version 1.0.0**  
+**Copyright © 2026 RobotoAI Technologies Pvt. Ltd. All rights reserved.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 1. GRANT OF LICENSE
+RobotoAI Technologies Pvt. Ltd. ("Licensor") grants you ("Licensee") a non-exclusive, non-transferable, royalty-free license to download, install, and use the R-Desk Remote Desktop Client ("Software") for personal, internal business, and robotics fleet management purposes, subject to the terms and conditions set forth in this Agreement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 2. DISTRIBUTION
+The Software is distributed as Freeware. You may freely redistribute the unmodified binary packages (`.deb`, `.exe`) provided in this public repository (`rdesk_public`), provided that:
+* You do not charge any fee or request compensation for the Software itself.
+* You do not bundle the Software with third-party adware, malware, or unwanted promotional software.
+* All copyright notices, proprietary notices, and this EULA remain intact.
+
+## 3. RESTRICTIONS
+You may not:
+* Reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software.
+* Modify, translate, adapt, or create derivative works based on the Software.
+* Rent, lease, lend, or sub-license the Software to third parties without express written authorization from Licensor.
+* Remove, alter, or obscure any copyright, trademark, or other proprietary notices contained on or within the Software.
+
+## 4. INTELLECTUAL PROPERTY RIGHTS
+The Software, including but not limited to all code, algorithms, graphical user interfaces, logos, and related documentation, is the exclusive intellectual property of RobotoAI Technologies Pvt. Ltd. The Software is protected by copyright laws and international treaties.
+
+## 5. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY, PERFORMANCE, AND USE OF THE SOFTWARE IS WITH YOU. ROBOTOAI TECHNOLOGIES PVT. LTD. DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR COMPLETELY SECURE.
+
+## 6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL ROBOTOAI TECHNOLOGIES PVT. LTD., ITS DIRECTORS, EMPLOYEES, OR AFFILIATES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## 7. TERMINATION
+This license is effective until terminated. Your rights under this License will terminate automatically without notice from Licensor if you fail to comply with any terms of this Agreement. Upon termination, you must cease all use of the Software and destroy all copies, full or partial, of the Software in your possession.
+
+## 8. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles. Any legal action or proceeding arising under this Agreement shall be brought exclusively in the courts located in India.
+
+---
+
+**RobotoAI Technologies Pvt. Ltd.**  
+**Website:** [https://rdesk.robotoai.com](https://rdesk.robotoai.com)  
+**Contact:** [contact@robotoai.com](mailto:contact@robotoai.com)

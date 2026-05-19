@@ -61,4 +61,4 @@ fi
 echo "--------------------------------------------------------"
 echo "✅ Installation Complete!"
 echo "R-Desk has been successfully installed on your system."
-echo "You can launch R-Desk from your application menu or by typing 'r_desk' in the terminal."
+echo "You can launch R-Desk from your application menu or by typing 'rdesk' in the terminal."

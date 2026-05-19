@@ -29,17 +29,13 @@ R-Desk provides native Debian (`.deb`) packages for x86_64 (AMD64) workstations 
 
 ### 1. Run the Unified Installer (Recommended)
 
-Our `install.sh` script automatically detects your architecture, installs the right `.deb` package via `apt` (which resolves dependencies), and configures all necessary remote control permissions in one step.
+Our `install.sh` script automatically detects your architecture, installs the right `.deb` package securely via `sudo dpkg -i`, and configures all necessary remote control permissions in one step.
 
-1. Open your terminal and navigate to the `linux/stable/version/1.0.0/` directory inside the repository.
-2. Make the scripts executable:
-   ```bash
-   chmod +x install.sh setup.sh
-   ```
-3. Run the unified installer:
-   ```bash
-   ./install.sh
-   ```
+You can download and run the unified installer in a single line command:
+
+```bash
+curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/install.sh -o install.sh && curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/setup.sh -o setup.sh && chmod +x install.sh setup.sh && ./install.sh
+```
 
 **What the script does:**
 * Detects your CPU architecture (AMD64 vs ARM64).

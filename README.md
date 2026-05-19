@@ -69,12 +69,10 @@ Choose the appropriate installer or package for your operating system and CPU ar
 ### Linux Installation
 We provide a unified, one-click installation script that automatically detects your architecture, installs the correct package, and configures remote control permissions (`uinput`).
 
-1. Open your terminal in the downloaded `linux/stable/version/1.0.0/` folder.
-2. Make the script executable and run it:
-   ```bash
-   chmod +x install.sh setup.sh
-   ./install.sh
-   ```
+You can download and run the installer directly in one command:
+```bash
+curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/install.sh -o install.sh && curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/setup.sh -o setup.sh && chmod +x install.sh setup.sh && ./install.sh
+```
 *(Note: You will need to log out and log back in for remote keyboard/mouse permissions to take full effect).*
 
 > [!IMPORTANT]  

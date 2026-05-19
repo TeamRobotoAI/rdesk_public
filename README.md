@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/monitor-smartphone.svg" width="32" height="32" align="absmiddle"> R-Desk Remote Desktop Client
+# <img src="./assets/logo.png" width="48" height="48" align="absmiddle"> R-Desk Remote Desktop Client
 
 <div align="center">
 

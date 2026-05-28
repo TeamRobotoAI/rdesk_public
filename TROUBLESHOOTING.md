@@ -66,7 +66,7 @@ Wayland restricts direct window-capture access for security reasons. Screen capt
 This happens if the binary was compiled on a newer GLib/glibc environment (e.g. GLib 2.80+) than the one installed on your host system. 
 
 ### 🛠️ Solution
-Ensure you have downloaded `r_desk_1.0.0_compatible_amd64.deb` instead of a platform-specific package compiled elsewhere. The `compatible_amd64` distribution is specifically compiled with Broad Glibc 2.31+ compatibility (compatible with Ubuntu 20.04 LTS and above, Debian 11+, and similar distributions).
+Ensure you have downloaded `r_desk_1.0.1_amd64.deb` instead of a platform-specific package compiled elsewhere. The `amd64` distribution is specifically compiled with Broad Glibc 2.31+ compatibility (compatible with Ubuntu 20.04 LTS and above, Debian 11+, and similar distributions).
 
 ---
 

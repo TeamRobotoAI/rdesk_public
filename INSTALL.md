@@ -9,8 +9,8 @@ This guide provides step-by-step instructions for installing and configuring the
 R-Desk is distributed as a fully self-contained installer for both standard 64-bit (x64) PCs and Windows on ARM (ARM64) devices.
 
 ### 1. Select the Correct Installer
-* **Standard PC (Intel/AMD x64):** Download `r_desk_1.0.0_x64_setup.exe` from the `windows/stable/version/1.0.0/` directory.
-* **ARM Laptops (Snapdragon X Elite, Surface Pro 9/11):** Download `r_desk_1.0.0_arm64_setup.exe` from the `windows/stable/version/1.0.0/` directory.
+* **Standard PC (Intel/AMD x64):** Download `r_desk_1.0.1_x64_setup.exe` from the `windows/stable/version/1.0.1/` directory.
+* **ARM Laptops (Snapdragon X Elite, Surface Pro 9/11):** Download `r_desk_1.0.1_arm64_setup.exe` from the `windows/stable/version/1.0.1/` directory.
 
 ### 2. Run the Setup Wizard
 1. Double-click the downloaded `.exe` file.
@@ -34,7 +34,7 @@ Our `install.sh` script automatically detects your architecture, installs the ri
 You can download and run the unified installer in a single line command:
 
 ```bash
-curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/install.sh -o install.sh && curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.0/setup.sh -o setup.sh && chmod +x install.sh setup.sh && ./install.sh
+curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.1/install.sh -o install.sh && curl -L https://raw.githubusercontent.com/TeamRobotoAI/rdesk_public/main/linux/stable/version/1.0.1/setup.sh -o setup.sh && chmod +x install.sh setup.sh && ./install.sh
 ```
 
 **What the script does:**
@@ -55,11 +55,11 @@ If you prefer to install packages and configure permissions manually without the
 #### A. Install the `.deb` Package
 ```bash
 # For AMD64 (x86_64) systems:
-sudo dpkg -i ./linux/r_desk_1.0.0_compatible_amd64.deb
+sudo dpkg -i ./linux/r_desk_1.0.1_amd64.deb
 sudo apt install -f # to resolve any missing dependencies
 
 # For ARM64 (aarch64) systems:
-sudo dpkg -i ./linux/r_desk_1.0.0_arm64.deb
+sudo dpkg -i ./linux/r_desk_1.0.1_arm64.deb
 sudo apt install -f # to resolve any missing dependencies
 ```
 

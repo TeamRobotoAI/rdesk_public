@@ -40,7 +40,7 @@ Choose the appropriate installer or package for your operating system and CPU ar
 | Architecture | File Name | Description | Download Link |
 |:---|:---|:---|:---|
 | **Linux (All)** | `install.sh` | One-click unified installer for all Linux architectures. | [View Installer](./linux/stable/version/1.0.1/install.sh) |
-| **Linux (AMD64)** | `r_desk_1.0.1_amd64.deb` | Broadly compatible Debian/Ubuntu package for standard x86_64 Linux PCs. | [Download AMD64](./linux/stable/version/1.0.1/r_desk_1.0.1_amd64.deb) |
+| **Linux (AMD64)** | `r_desk_1.0.1_compatible_amd64.deb` | Broadly compatible Debian/Ubuntu package for standard x86_64 Linux PCs. | [Download AMD64](./linux/stable/version/1.0.1/r_desk_1.0.1_compatible_amd64.deb) |
 | **Linux (ARM64)** | `r_desk_1.0.1_arm64.deb` | Native Debian package for ARM64 SBCs (Raspberry Pi 4/5, NVIDIA Jetson, etc.). | [Download ARM64](./linux/stable/version/1.0.1/r_desk_1.0.1_arm64.deb) |
 
 > [!NOTE]
@@ -91,7 +91,7 @@ rdesk_public/
 ├── LICENSE                 # End-User License Agreement
 ├── linux/stable/version/1.0.1/ # Linux distribution packages
 │   ├── install.sh              # One-click unified installer for Linux
-│   ├── r_desk_1.0.1_amd64.deb
+│   ├── r_desk_1.0.1_compatible_amd64.deb
 │   ├── r_desk_1.0.1_arm64.deb
 │   └── setup.sh                # Linux uinput permission helper script
 └── windows/stable/version/1.0.1/ # Windows distribution installers

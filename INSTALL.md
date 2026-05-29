@@ -55,7 +55,7 @@ If you prefer to install packages and configure permissions manually without the
 #### A. Install the `.deb` Package
 ```bash
 # For AMD64 (x86_64) systems:
-sudo dpkg -i ./linux/r_desk_1.0.1_amd64.deb
+sudo dpkg -i ./linux/r_desk_1.0.1_compatible_amd64.deb
 sudo apt install -f # to resolve any missing dependencies
 
 # For ARM64 (aarch64) systems:

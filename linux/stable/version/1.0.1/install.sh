@@ -16,8 +16,8 @@ DOWNLOAD_URL=""
 
 if [[ "$ARCH" == "x86_64" ]]; then
     echo "💻 Detected Architecture: x86_64 (AMD64)"
-    DEB_NAME="r_desk_1.0.1_amd64.deb"
-    DOWNLOAD_URL="https://github.com/TeamRobotoAI/rdesk_public/releases/download/v1.0.1/r_desk_1.0.1_amd64.deb"
+    DEB_NAME="r_desk_1.0.1_compatible_amd64.deb"
+    DOWNLOAD_URL="https://github.com/TeamRobotoAI/rdesk_public/releases/download/v1.0.1/r_desk_1.0.1_compatible_amd64.deb"
 elif [[ "$ARCH" == "aarch64" || "$ARCH" == "arm64" ]]; then
     echo "📱 Detected Architecture: ARM64"
     DEB_NAME="r_desk_1.0.1_arm64.deb"
